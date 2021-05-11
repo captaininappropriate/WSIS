@@ -1,6 +1,6 @@
 ﻿# Name        : Windows Sensitive Information Searcher
 # Author      : Greg Nimmo
-# Version     : 1.0
+# Version     : 1.1
 # Description : Post exploitation script to search a specified shared folder for sensitive information
 #               The script take multiple options, including the file types to search and
 #               the content to identify, based on an array of keywords  
