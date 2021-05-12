@@ -10,9 +10,9 @@
 # function for displaying the main menu
 function Show-Menu {
     param (
-        [string]$Title = 'Windows Sensitive Information Searcher'
+        [string]$title = 'Windows Sensitive Information Searcher'
     )
-    Write-Host "`n============= Search Strings =============="
+    Write-Host "`n============= $title =============="
     Write-Host "`t 'A' Create file extension list"
     Write-Host "`t 'B' Create keyword search list "
     Write-Host "`t 'C' Configure connection settings"
@@ -162,4 +162,4 @@ do {
     }
     } # end switch Q
 
-} until ($choice -eq 'Q') # end switch case
+} until ($choice -eq 'Q') # end do
